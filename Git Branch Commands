@@ -13,4 +13,4 @@ git branch    */fetch all the branch in current repository*/
 git switch branchname    */switch to the particular branch*/
 git checkout branchname    */switch to the particular branch*/
 git branch -d branchname    */delete a particular branch*/
-git merge branchname    */merge all the changes of defined branch name to the current branch*/
+git merge branchname    */merge all the commit of defined branch name to the current branch*/
