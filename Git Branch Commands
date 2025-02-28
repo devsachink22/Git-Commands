@@ -8,7 +8,7 @@ git log    /*check the logs of all commits in the current branch.*/
 git checkout hashcode    */rollback all the commits to defined hashcode & points the head to the defined hashcode.*/
 
 git branch branchname    */create a new branch from the current branch but remain to the current branch.*/
-git checkout -b branchname    */create a new branch from the current branch but switch to the new branch*/
+git checkout -b branchname    */create a new branch from the current branch and switch to the new branch*/
 git branch    */fetch all the branch in current repository*/
 git switch branchname    */switch to the particular branch*/
 git checkout branchname    */switch to the particular branch*/
