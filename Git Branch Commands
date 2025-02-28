@@ -1,0 +1,16 @@
+mkdir directoryname    /*create a new directory or folder*/
+pwd    /*print the current working directory*/
+git init    /*create a repository in current directory*/
+git status    /*check the status of all the files in the current directory*/
+git add filename    /*move particular/modified file of current directory to the staging state in order to commit*/
+git commit -m "message as per the user's choice"    /*commit all the files of the current directory which is in staging state. A unique hashcode is generated with each commit.*/
+git log    /*check the logs of all commits in the current branch.*/
+git checkout hashcode    */rollback all the commits to defined hashcode & points the head to the defined hashcode.*/
+
+git branch branchname    */create a new branch from the current branch but remain to the current branch.*/
+git checkout -b branchname    */create a new branch from the current branch but switch to the new branch*/
+git branch    */fetch all the branch in current repository*/
+git switch branchname    */switch to the particular branch*/
+git checkout branchname    */switch to the particular branch*/
+git branch -d branchname    */delete a particular branch*/
+git merge branchname    */merge all the changes of defined branch name to the current branch*/
