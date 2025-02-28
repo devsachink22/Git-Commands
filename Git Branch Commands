@@ -2,8 +2,8 @@ mkdir directoryname    /*create a new directory or folder*/
 pwd    /*print the current working directory*/
 git init    /*create an empty repository in current directory*/
 git status    /*check the status of all the files in the current directory*/
-git add filename    /*move particular/modified file of current directory to the staging state in order to commit*/
-git commit -m "message as per the user's choice"    /*commit all the files of the current directory which is in staging state. A unique hashcode is generated with each commit.*/
+git add filename    /*move particular/modified file of the current directory to staging area in order to commit*/
+git commit -m "message as per the user's choice"    /*commit all the files of the current directory that are in staging area. A unique hashcode is generated with each commit.*/
 git log    /*check the logs of all commits in the current branch.*/
 git checkout hashcode    */rollback all the commits to defined hashcode & points the head to the defined hashcode.*/
 
