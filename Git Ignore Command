@@ -1,1 +1,3 @@
 touch .gitignore    /*create .gitignore extension file in current directory*/
+
+Note: It is used to ignore the specific files by the GitHub. There is a condition to use .gitignore facility which means files that are defined in .gitignore should not be previously moved to staging area.
