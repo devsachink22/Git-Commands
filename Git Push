@@ -1,4 +1,4 @@
-git remote -v    /*print the bookmarked repositories*/
+git remote -v    /*print all the bookmarked repositories*/
 git remote add bookmarkname repositorylink    /*create a bookmark of the defined repository*/
 git branch -m branchname
 git push -u bookmarkname branchname    /*push the committed files of particular branch to the bookmarked repository*/
