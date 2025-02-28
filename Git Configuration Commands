@@ -1,0 +1,11 @@
+git config --global user.name "user's name"    /*defines the user's name in configuration file*/
+git config --global user.email "user's email"    /*defines the user's email id in configuration file*/
+git config --global user.username "username"    /*defines the username in configuration file*/
+git config --global user.password "user's account password"    /*defines the user's account password in configuration file*/
+
+git config --global user.name    /*display the user's name in configuration file*/
+git config --global user.email    /*display the user's email id in configuration file*/
+git config --global user.username    /*display the username in configuration file*/
+git config --global user.password    /*display the user's account password in configuration file*/
+
+git config --global --edit    /*edit the configuration file*/
